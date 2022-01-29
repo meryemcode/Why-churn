@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>YChurn</title>
+    <style>
+        div {
+            width: 400px;
+            height: 350px;
+            background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(105, 184, 86) 50%);
+        }
+
+        h1 {
+            text-align: center;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 96px;
+            line-height: 131px;
+            letter-spacing: -0.02em;
+            color: #000000;
+            font-family: "Copperplate", Fantasy;
+        }
+
+        h2 {
+            text-align: left;
+            font-style:normal;
+            font-weight:normal;
+            font-size: 25px;
+            line-height: 15px;
+            letter-spacing: -0.02em;
+            color: #000000;
+            font-family: "Copperplate", Fantasy;
+        }
+
+        form {
+            position: absolute;
+            width: 800px;
+            height: 100px;
+            left: 41px;
+            top: 10px;
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+            color: #000000;
+        }
+
+        input {
+            width: 100%;
+            padding: 1px 0px;
+            margin: 1px -10px;
+            box-sizing: border-box;
+            background-color: #e3e3e3;
+            color: black;
+            border-radius: 100px;
+        }
+
+        select {
+            width: 100%;
+            padding: 1px 0px;
+            margin: 5px -10px;
+            box-sizing: border-box;
+            background-color: #e3e3e3;
+            color: black;
+            border-radius: 18px;
+        }
+
+        button {
+            position: absolute;
+            width: 263px;
+            height: 66px;
+            left: 1050px;
+            top: 600px;
+            background: #79c2d0;
+            border-radius: 18px;
+            font-size: 25px;
+            font-family: "Monaco", monospace;
+
+        }
+
+        img {
+            position: absolute;
+            width: 500px;
+            height: 300px;
+            left: 115px;
+            top: 250px;
+
+            background: #67FA87;
+        }
+
+        .rectangle {
+            position: absolute;
+            width: 696px;
+            height: 753px;
+            left: 840px;
+            top: 0px;
+            background: #385170;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rectangle">
+        <h1>YChurn</h1>
+        <img src="Ychurn.jpeg">
+    </div>
+
+    <form>
+        <h2>MyForms</h2>
+        <label for="Account Length">Account Length:</label>
+        <input>
+        <label for="Internet Plan">Internet Plan:</label>
+        <select class="combo">
+            <option value="True">Yes</option>
+            <option value="False">No</option>
+        </select>
+        <label for="Internet Charge">Internet Charge:</label>
+        <input>
+        <label for="Internet Mins">Internet Mins:</label>
+        <input>
+        <label for="VoiceMail Plan">VoiceMail Plan:</label>
+        <select class="combo">
+            <option value="True">Yes</option>
+            <option value="False">No</option>
+        </select>
+        <label for="VMail Message">VMail Message:</label>
+        <input type="text" id="VMail Message" name="VMail Message" maxlength="8">
+        <label for="Day calls">Day calls:</label>
+        <input type="text" id="Day calls" name="Day calls">
+        <label for="Day calls Mins">Day calls Mins:</label>
+        <input type="text" id="Day calls Mins" name="Day calls Mins">
+        <label for="Eve calls">Eve calls:</label>
+        <input type="text" id="Eve calls" name="Eve calls">
+        <label for="Evening calls Mins">Evening calls Mins:</label>
+        <input type="text" id="Evening calls Mins" name="Evening calls
+                    Mins">
+        <label for="Night calls">Night calls:</label>
+        <input type="text" id="Night calls" name="Night calls">
+        <label for="Night calls Mins">Night calls Mins:</label>
+        <input type="text" id="Night calls Mins" name="Night calls
+                    Mins">
+        <label for="Service Calls">Service Calls:</label>
+        <input type="text" id="Service Calls" name="Service Calls">
+        <label for="Day Calls charge">Day Calls charge:</label>
+        <input type="text" id="Day Calls charge" name="Day Calls charge">
+        <label for="Evening Calls charge">Evening Calls charge:</label>
+        <input type="text" id="Evening Calls charge" name="Evening Calls charge">
+        <label for="Night Calls charge">Night Calls charge:</label>
+        <input type="text" id="Night Calls charge" name="Night Calls charge">
+    </form>
+    <button type="button">Submit</button>
+</body>
+
+</html>
