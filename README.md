@@ -1,9 +1,50 @@
-Why-Churn
-==============================
+# Why Churn ?
 
-Churn is churn
+## Project Name
 
-Project Organization
+Why Churn ? (Churn Prediction using Machine Learning)
+
+## Objective
+
+A general-purpose application for solving problems with machine learning applied to predicting customer churn
+
+## Details about the data
+
+It consists of 3333 entries and 21 columns. Independent informations about customers.
+
+| Columns| Description |
+|----------------|---------------|
+| State| string. 2-letter code of the US state of customer residence  |
+| Account Length |  numerical. Number of months the customer has been with the current telco provider    |
+| Area Code  |   string="area_code_AAA" where AAA = 3 digit area code.   |
+| Phone |      |
+| Intl Plan   |  (yes/no). The customer has international plan.    |
+| VMail Plan  |    (yes/no). The customer has voice mail plan.  |
+| VMail Message  |   numerical. Number of voice-mail messages.   |
+| Day Mins |    numerical. Total minutes of day calls.   |
+| Day Calls|numerical. Total minutes of day calls.|
+| Day Charge|numerical. Total charge of day calls.|
+| Eve Mins|numerical. Total minutes of evening calls.|
+| Eve Calls|numerical. Total number of evening calls.|
+| Eve Charge|numerical. Total charge of evening calls.|
+| Night Mins|numerical. Total minutes of night calls.|
+| Night Calls|numerical. Total number of night calls.|
+| Night Charge|numerical. Total charge of night calls.|
+| Intl Mins|numerical. Total minutes of international calls.|
+| Intl Calls|numerical. Total number of international calls.|
+| Intl Charge|numerical. Total charge of international calls|
+| CustServ Calls|numerical. Number of calls to customer service|
+| Churn|(yes/no). Customer churn - target variable.|
+
+## Results
+
+## Contributors
+
+## Credits
+
+Orange Digital Center Rabat
+
+## Project Organization
 ------------
 
     ├── LICENSE
@@ -55,3 +96,5 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
